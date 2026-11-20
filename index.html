@@ -169,6 +169,7 @@ button.plink{background:none;border:0;padding:0;font:inherit;font-size:13px;curs
 .contact{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:70px 30px;position:relative;overflow:hidden}
 .contact::before{content:"";position:absolute;inset:auto -20% -60% -20%;height:300px;background:radial-gradient(ellipse,rgba(34,211,238,.14),transparent 70%)}
 .contact h2{margin-bottom:16px}
+.contact p.mail{font-family:var(--mono);color:var(--accent);font-size:15px;margin-bottom:12px}
 .contact p{color:var(--muted);max-width:520px;margin:0 auto 32px;position:relative}
 .contact .ctas{justify-content:center;position:relative}
 footer{border-top:1px solid var(--line);padding:28px 0;font-size:13px;color:var(--dim);position:relative;z-index:1}
@@ -408,7 +409,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
         <svg class="icon" style="width:28px;height:28px;color:var(--accent)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/><path d="M14 3v6h6"/></svg>
         <h3>Full CV (PDF)</h3>
         <p>Experience, projects, skills and activities on one page.</p>
-        <a class="btn primary" href="cv_youssef_ayadi.pdf" download>Download CV</a>
+        <div class="ctas"><a class="btn primary" href="cv_youssef_ayadi.pdf" download>Download CV (EN)</a><a class="btn" href="cv_youssef_ayadi_fr.pdf" download>Version française</a></div>
       </div>
       <div class="col">
         <div class="box"><h4>Education</h4>
@@ -438,9 +439,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
     <div class="contact">
       <div class="eyebrow">06 — Contact</div>
       <h2>Let's work together.</h2>
+      <p class="mail">youssefayadi911@gmail.com</p>
       <p>I'm looking for internships and junior roles in security analysis, threat intelligence and secure software — especially in Europe. My inbox is always open.</p>
       <div class="ctas">
-        <a class="btn primary" href="mailto:your.email@example.com">Say hello ↗</a>
+        <a class="btn primary" href="mailto:youssefayadi911@gmail.com">Say hello ↗</a>
         <a class="btn" href="https://www.linkedin.com/in/youssef-ayadi--/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="https://github.com/youssef00640" target="_blank" rel="noopener">GitHub</a>
       </div>
